@@ -1,0 +1,28 @@
+{
+  "name": "net_apply_ajs",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrn92/net_apply_ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrn92/net_apply_ajs/issues"
+  },
+  "homepage": "https://github.com/andrn92/net_apply_ajs#readme",
+  "description": "",
+  "dependencies": {
+    "@andrn92/ajs": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1"
+  }
+}
